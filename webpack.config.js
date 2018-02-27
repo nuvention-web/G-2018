@@ -9,7 +9,7 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   module: {
-    loaders: [
+    loaders: []
       {
         loader: 'babel-loader',
         query: {
@@ -22,3 +22,10 @@ module.exports = {
   },
   devtool: 'cheap-module-source-map'
 };
+
+
+// {
+// test: /\.jsx?$/,
+// loader: 'babel!semantic-ui-react-less-loader',
+// include: [/node_modules[\/\\]semantic-ui-react/]
+// },
