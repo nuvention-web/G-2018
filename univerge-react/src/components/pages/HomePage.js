@@ -12,6 +12,7 @@ const HomePage = () => (
     <Divider hidden />
     <Divider hidden />
     <Divider hidden />
+    <Divider hidden />
 
     <Container>
       <Image src={logo} size='large' centered/>
@@ -23,30 +24,48 @@ const HomePage = () => (
     <Divider hidden />
     <Divider hidden />
     <Divider hidden />
+    <Divider hidden />
+    <Divider hidden />
 
     <Container text>
-      <Header as='h2'> Some Descriptor </Header>
+
+      <Grid centered>
+        <Header as='h2'> Some Descriptor </Header>
+      </Grid>
+
+      <Divider hidden />
+      <Divider hidden />
+      <Divider hidden />
+
       <p>Paragraph 1</p>
+
+      <Divider hidden />
+      <Divider hidden />
+
       <p>Paragraph 2</p>
     </Container>
 
+    <Divider hidden />
+    <Divider hidden />
+    <Divider hidden />
+
     <Container>
-      <Grid centered columns={3}>
-        <Grid.Column>
+      <Grid centered columns={5}>
+        <Grid.Column textAlign={'center'}>
           <Link to='/mentorsignup'>
             <Button primary>
               High School Student
             </Button>
           </Link>
         </Grid.Column>
-        <Grid.Column>
+        <Grid.Column textAlign={'center'}>
           <Link to='/menteesignup'>
             <Button primary>
               College Student
             </Button>
           </Link>
         </Grid.Column>
-        <Grid.Column>
+        <Grid.Column textAlign={'center'}>
           <Link to='/menteesignup'>
             <Button primary>
               Industry Professional
