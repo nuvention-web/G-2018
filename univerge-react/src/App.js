@@ -5,8 +5,8 @@ import MentorSignUp from './components/pages/MentorSignUp';
 import MenteeSignUp from './components/pages/MenteeSignUp';
 
 const App = () => (
-  // className='ui container'
-<div>
+
+<div className='ui container fluid'>
   <Route path="/" exact component={HomePage} />
   <Route path="/mentorsignup" exact component={MentorSignUp} />
   <Route path="/menteesignup" exact component={MenteeSignUp} />
