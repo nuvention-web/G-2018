@@ -9,18 +9,11 @@ const HomePage = () => (
     <Divider hidden />
     <Divider hidden />
     <Divider hidden />
-    <Divider hidden />
-    <Divider hidden />
-    <Divider hidden />
-    <Divider hidden />
 
     <Container>
-      <Image src={logo} size='large' centered/>
+      <Image src={logo} size='medium' centered/>
     </Container>
 
-    <Divider hidden />
-    <Divider hidden />
-    <Divider hidden />
     <Divider hidden />
     <Divider hidden />
     <Divider hidden />
@@ -30,19 +23,15 @@ const HomePage = () => (
     <Container text>
 
       <Grid centered>
-        <Header as='h2'> Some Descriptor </Header>
+        <Header as='h2'> Your Future, Reimagined </Header>
       </Grid>
 
       <Divider hidden />
       <Divider hidden />
       <Divider hidden />
 
-      <p>Paragraph 1</p>
+      <p><strong>Kyte</strong> provides support from a mentor starting sophomore year of high school, and it allows for customized recommendations for individuals that best fit their interests and goals and will help them fulfill their potential. It is a community from extending from online to real-world relationships. At Kyte, we show our students what is possible in life beyond what they define for themselves. </p>
 
-      <Divider hidden />
-      <Divider hidden />
-
-      <p>Paragraph 2</p>
     </Container>
 
     <Divider hidden />
@@ -52,25 +41,25 @@ const HomePage = () => (
     <Container>
       <Grid centered columns={5}>
         <Grid.Column textAlign={'center'}>
-          <Link to='/mentorsignup'>
+          <a href='https://docs.google.com/forms/d/e/1FAIpQLSfloXOGCkqgkwKV6q3atHPkWJ3QFrDxF6vYdk9vkhS4k1zk1Q/viewform?usp=sf_link'>
             <Button primary>
               High School Student
             </Button>
-          </Link>
+          </a>
         </Grid.Column>
         <Grid.Column textAlign={'center'}>
-          <Link to='/menteesignup'>
+          <a href='https://docs.google.com/forms/d/e/1FAIpQLSc_L4iktnIUBaWvQb8up37Ewlw2cWEs8v6OyqXVxX9th243Iw/viewform?usp=sf_link'>
             <Button primary>
               College Student
             </Button>
-          </Link>
+          </a>
         </Grid.Column>
         <Grid.Column textAlign={'center'}>
-          <Link to='/menteesignup'>
+          <a href='https://docs.google.com/forms/d/e/1FAIpQLSfRankNYBFIVDOUpPTsg1IxVm50iZilUZecvMF8MRK5hVINCQ/viewform?usp=sf_link'>
             <Button primary>
               Industry Professional
             </Button>
-          </Link>
+          </a>
         </Grid.Column>
       </Grid>
     </Container>
