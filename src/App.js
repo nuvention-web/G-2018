@@ -6,6 +6,9 @@ import { Menu } from 'semantic-ui-react';
 // import MenteeSignUp from './components/pages/MenteeSignUp';
 import LandingPage from './components/pages/LandingPage';
 import About from './components/pages/About';
+import Mentor from './components/pages/Mentor';
+import Mentee from './components/pages/Mentee';
+import Team from './components/pages/Team';
 
 // export default class App extends Component {
 // render() {
@@ -27,6 +30,9 @@ export default class App extends Component {
 			<div>
 				<Route path="/" exact component={LandingPage}/>
 				<Route path="/about" exact component={About}/>
+				<Route path="/mentor" exact component={Mentor}/>
+				<Route path="/mentee" exact component={Mentee}/>
+				<Route path="/team" exact component={Team}/>
 			</div>
 		)
 	}

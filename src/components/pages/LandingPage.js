@@ -1,8 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.png';
+import About from './About';
+import Mentor from './Mentor';
+import Mentee from './Mentee';
+import Team from './Team';
+
 
 const LandingPage = () => (
+
 
 	<div>
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
@@ -28,11 +34,6 @@ const LandingPage = () => (
       </div>
     </nav>
 
-
-
-
-
-
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
         <img class="img-fluid mb-5 d-block mx-auto" src="img/profile.png" alt="" /> 
@@ -41,6 +42,21 @@ const LandingPage = () => (
         <h2 class="font-weight-light mb-0">Web Developer - Graphic Artist - User Experience Designer</h2>
       </div>
     </header>
+
+
+    <About />
+    <Mentor />
+    <Mentee />
+    <Team />
+
+    
+
+
+
+
+
+
+    
 
 
 

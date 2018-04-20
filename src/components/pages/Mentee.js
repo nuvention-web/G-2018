@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const About = () => (
+const Mentee = () => (
   <div>
-    <h1> About </h1>
+    <h1> Mentee </h1>
   </div>
 );
 
-export default About;
+export default Mentee;
