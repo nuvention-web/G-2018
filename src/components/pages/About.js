@@ -5,19 +5,14 @@ const About = () => (
   <section class="bg-primary text-white mb-0" id="about">
       <div class="container">
         <h2 class="text-center text-uppercase text-white">About</h2>
-        <hr class="star-light mb-5" />
+        <br />
         <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+          <div class="col-lg-5 ml-auto">
+            <p class="lead">At Kyte, we believe the path from high school to professional success goes beyond academics. We focus on personal growth, self-presentation, and interpersonal skills. We strive to create lasting relationships between working professionals and first-generation high school and college students. Each Kyte Triad consists of a working professional under the age of 35, a first-generation college student, and a high school student who will be the first in their family to attend college. </p>
           </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+          <div class="col-lg-5 mr-auto">
+            <p class="lead"> Our goal is to inspire. We treat students as individuals, each at a different stage of life, with unique experiences. Students choose what matters most to them in a mentorship relationship. And they have agency in where the relationship takes them. We don’t prime students for specific schools or professions. We want to help students soar—and we help them see all the possibilities. </p>
           </div>
-        </div>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" href="#">
-            Download Now!
-          </a>
         </div>
       </div>
     </section>
