@@ -22,21 +22,6 @@ const LandingPage = () => (
     <Mentee />
     <Team />
 
-    
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
     <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
