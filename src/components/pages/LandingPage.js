@@ -11,16 +11,15 @@ import Title from './Title';
 
 const LandingPage = () => (
 
-
 	<div>
-    
-
     <Navbar />
     <Title />
     <About />
     <Mentor />
     <Mentee />
     <Team />
+
+
 
     <section class="portfolio" id="portfolio">
       <div class="container">
