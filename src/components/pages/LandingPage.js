@@ -6,7 +6,7 @@ import Mentor from './Mentor';
 import Mentee from './Mentee';
 import Team from './Team';
 import Navbar from './Navbar';
-import Team from './Title';
+import Title from './Title';
 
 
 const LandingPage = () => (
