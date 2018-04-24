@@ -384,3 +384,10 @@ a:focus, a:hover, a:active {
   max-width: 50% !important;
   min-width: 50% !important;
 }
+
+.profpic {
+  display: block;
+  margin: auto;
+  max-width: 75% !important;
+}
+
