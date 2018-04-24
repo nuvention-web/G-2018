@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const About = () => (
-  <section class="bg-primary text-white mb-0" id="about">
+  	<section class="bg-primary text-white mb-0" id="about">
       <div class="container">
         <h2 class="text-center text-uppercase text-white">About</h2>
         <br />

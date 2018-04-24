@@ -7,6 +7,7 @@ import Mentee from './Mentee';
 import Team from './Team';
 import Navbar from './Navbar';
 import Title from './Title';
+import Footer from './Footer';
 
 
 const LandingPage = () => (
@@ -18,10 +19,12 @@ const LandingPage = () => (
     <Mentor />
     <Mentee />
     <Team />
+    <Footer />
 
 
 
-    <section class="portfolio" id="portfolio">
+
+    <section class="portfolio mfp-hide" id="portfolio">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
         <hr class="star-dark mb-5" />
@@ -97,7 +100,7 @@ const LandingPage = () => (
 
 
 
-    <section class="bg-primary text-white mb-0" id="about">
+    <section class="bg-primary text-white mb-0 mfp-hide" id="">
       <div class="container">
         <h2 class="text-center text-uppercase text-white">About</h2>
         <hr class="star-light mb-5" />
@@ -126,7 +129,7 @@ const LandingPage = () => (
 
 
 
-    <section id="contact">
+    <section id="contact" class="mfp-hide">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
         <hr class="star-dark mb-5" />
@@ -178,7 +181,7 @@ const LandingPage = () => (
 
 
 
-    <footer class="footer text-center">
+    <footer class="footer text-center mfp-hide">
       <div class="container">
         <div class="row">
           <div class="col-md-4 mb-5 mb-lg-0">
@@ -226,36 +229,11 @@ const LandingPage = () => (
     </footer>
 
 
-
-
-
-
-
-
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
-        <small>Copyright &copy; Kyte 2018</small>
-      </div>
-    </div>
-
-
-
-
-
-
-
-
     <div class="scroll-to-top d-lg-none position-fixed ">
       <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
-
-
-
-
-
-
 
 
 
