@@ -14,7 +14,7 @@ import Team from './components/pages/Team';
 // render() {
 //     return (
 //       <div className='ui container fluid'>
-
+//
 //         <Route path="/" exact component={HomePage} />
 //         <Route path="/mentorsignup" exact component={MentorSignUp} />
 //         <Route path="/menteesignup" exact component={MenteeSignUp} />
