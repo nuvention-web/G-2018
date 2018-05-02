@@ -391,3 +391,12 @@ a:focus, a:hover, a:active {
   max-width: 75% !important;
 }
 
+.team-row {
+  margin-bottom: 20px;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+

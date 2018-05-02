@@ -6,7 +6,7 @@ const Title = () => (
   <header class="masthead text-center">
       <div class="container logo">
         <img class="img-fluid mb-5 d-block mx-auto logo" src={ logo } /> 
-        <h2 class="font-weight-light mb-0">Whatever our tagline is</h2>
+        <h2 class="font-weight-light mb-0">Set your sights on the future.</h2>
       </div>
   </header>
 );
