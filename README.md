@@ -1,4 +1,6 @@
-Directions to download and run website:
+kytementorship.com
+
+Directions to download and run React website locally:
 *Make sure yarn is installed*
   1) Clone repo
   2) navigate to repo in shell
